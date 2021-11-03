@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  height: 50px;
+  background-color: rgb(1, 1, 56);
+  width: auto;
+  border-bottom: yellow 2px solid;
+}
+li {
+  list-style-type: none;
+  float: left;
+  margin: 0 35px;
+  margin-top: 15px;
+  color: white;
+}
+
+i {
+  float: right;
+  font-size: 20px;
+  color: white;
+  margin: 15px;
+}

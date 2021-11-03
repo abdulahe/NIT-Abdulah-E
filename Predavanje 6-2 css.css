@@ -1,0 +1,6 @@
+ul {
+  list-style-type: disc;
+}
+.empty-dots {
+  list-style-type: circle;
+}

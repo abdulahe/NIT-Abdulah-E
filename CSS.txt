@@ -1,0 +1,4 @@
+css
+inline - unutar tag-a
+internal - unutar head-a
+external - van html file-a

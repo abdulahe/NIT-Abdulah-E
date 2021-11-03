@@ -1,0 +1,11 @@
+body {
+  background-color: linen;
+}
+div {
+  text-align: center;
+  width: 300px;
+  border: dashed black 3px;
+  border-radius: 15px;
+  background-color: cyan;
+  margin-left: 500px;
+}

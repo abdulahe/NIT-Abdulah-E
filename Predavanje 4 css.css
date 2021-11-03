@@ -1,0 +1,29 @@
+body {
+  background-color: cyan;
+}
+#div0 {
+  border: solid black 3px;
+  background-color: rgb(36, 35, 35);
+  width: 300px;
+  height: 700px;
+  padding: 0px 10px;
+}
+.div00 {
+  border: solid black 3px;
+  margin: 20px auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+}
+#div1 {
+  width: 350px;
+  text-align: center;
+  border: rgb(37, 223, 213) 2px solid;
+  margin: 20px auto;
+  padding: 20px 10px;
+  background-color: rgb(136, 255, 249);
+}
+img {
+  border-radius: 200px;
+  border: 5px black double;
+}
