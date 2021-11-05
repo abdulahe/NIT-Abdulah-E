@@ -2,6 +2,31 @@
   margin: 0px;
   padding: 0px;
 }
+li {
+  list-style-type: none;
+  float: left;
+  margin: 20px 30px;
+}
+#topBar {
+  background-color: darkgoldenrod;
+  height: 60px;
+  color: white;
+  border-bottom: rgb(251, 255, 0) 2px solid;
+}
+li:hover {
+  color: darkblue;
+  cursor: pointer;
+}
+i {
+  float: right;
+  margin: 20px;
+  color: white;
+}
+i:hover {
+  color: darkblue;
+  cursor: pointer;
+  transition: 1s;
+}
 .bcg {
   height: 700px;
   background-size: 100%;
