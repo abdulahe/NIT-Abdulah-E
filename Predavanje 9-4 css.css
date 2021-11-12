@@ -1,0 +1,37 @@
+#main {
+  position: relative;
+  width: 800px;
+  padding: 30px;
+  border-radius: 30px;
+  height: 450px;
+  margin: 100px 300px;
+  border: none;
+  background-color: white;
+}
+#right {
+  position: absolute;
+  left: 500px;
+  top: 150px;
+}
+#left {
+  position: absolute;
+  top: 150px;
+}
+#bottom {
+  position: absolute;
+  top: 250px;
+}
+button {
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 30px;
+  height: 30px;
+  width: 80px;
+}
+input {
+  border: none;
+  background-color: lightgray;
+  padding: 10px 5px;
+  border-radius: 25px;
+}

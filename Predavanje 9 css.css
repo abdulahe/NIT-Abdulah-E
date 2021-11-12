@@ -1,12 +1,16 @@
 * {
   font-family: "Times New Roman", Times, serif;
   line-height: 30px;
-  background-color: lightgreen;
+  background-color: lightblue;
 }
 button {
-  background-color: lightblue;
+  background: linear-gradient(#e66465, #9198e5);
   border: none;
   border-radius: 5px;
   width: 80px;
   height: 50px;
+}
+input {
+  border: 1px black solid;
+  border-radius: 5px;
 }

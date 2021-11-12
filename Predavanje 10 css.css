@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#topBar {
+  height: 60px;
+  border-bottom: rgb(255, 208, 0) 4px solid;
+  background-color: rgb(5, 0, 53);
+}
+li {
+  list-style-type: none;
+  float: left;
+  margin: 20px 30px;
+}
+
+.bimg {
+  background-image: url(https://images.pexels.com/photos/1139541/pexels-photo-1139541.jpeg?cs=srgb&dl=pexels-jayson-delos-santos-1139541.jpg&fm=jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 700px;
+  position: relative;
+}
+button {
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  border: solid 3px black;
+  background-color: rgb(241, 241, 53);
+}
+#childOfBimg {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  left: 430px;
+  top: 200px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 208, 0);
+}
+a:hover {
+  color: darkblue;
+  cursor: pointer;
+}
+#contact {
+  text-align: center;
+  line-height: 50px;
+  border: rgb(5, 0, 53) 4px solid;
+  width: 600px;
+  height: 450px;
+  background-color: rgb(253, 217, 55);
+  margin: 50px 400px;
+  padding: 30px 0px;
+}
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: rgb(5, 0, 53) 2px solid;
+  width: 400px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: rgb(5, 0, 53) 2px solid;
+  width: 400px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
