@@ -26,6 +26,13 @@ button {
   border-radius: 10px;
   border: solid 3px black;
   background-color: rgb(241, 241, 53);
+  margin-top: 20px;
+}
+button:hover {
+  background-color: rgb(5, 0, 53);
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 #childOfBimg {
   position: absolute;
@@ -69,4 +76,20 @@ textarea {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
+}
+/* .naslov {
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+} */
+#submitButton {
+  background-color: rgb(5, 0, 53);
+  border: none;
+  color: white;
+}
+#submitButton:hover {
+  border: solid 3px black;
+  background-color: rgb(241, 241, 53);
+  color: black;
+  cursor: pointer;
 }
