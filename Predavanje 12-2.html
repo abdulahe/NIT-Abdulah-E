@@ -8,11 +8,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="Predavanje 12-1 css.css" />
+    <link rel="stylesheet" href="Predavanje 12-2 css.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu</title>
+    <title>Contact</title>
   </head>
   <body>
     <div class="navigationBar">
@@ -26,18 +26,41 @@
         >Contact</a
       >
     </div>
-    <div class="menu">
-      <div id="smallburger" class="burgers">
-        <p class="burgertext">Small Burger</p>
-      </div>
-      <div id="mediumburger" class="burgers">
-        <p class="burgertext">Medium Burger</p>
-      </div>
-      <div id="largeburger" class="burgers">
-        <p class="burgertext">Large Burger</p>
-      </div>
-      <div id="xlburger" class="burgers">
-        <p class="burgertext">XLarge Burger</p>
+    <div class="bimg">
+      <div id="formbody">
+        <h1>Contact Us</h1>
+        <br />
+        <form>
+          <div id="left">
+            <label for="fullname">Full Name</label><br />
+            <input type="text" id="fullname" placeholder="John Smith" /><br />
+          </div>
+          <div id="right">
+            <label for="emial">E-mail</label><br />
+            <input
+              type="email"
+              id="email"
+              placeholder="example@domain.com"
+            /><br />
+          </div>
+          <div id="bottom">
+            <label for="reason">Why do you wish to contact us?</label><br />
+            <select id="reason">
+              <br />
+              <option value="1">Complaint</option>
+              <option value="2">Question</option>
+              <option value="3">Other</option></select
+            ><br />
+            <textarea
+              id="userinput"
+              cols="100"
+              rows="10"
+              placeholder="Type your input here"
+            ></textarea
+            ><br />
+            <button type="submit">Submit</button>
+          </div>
+        </form>
       </div>
     </div>
     <div class="bottomBar">

@@ -22,11 +22,11 @@ a {
 a:hover {
   color: red;
 }
-.bimg-home {
+.bimg {
   background-image: url(https://images.pexels.com/photos/3616956/pexels-photo-3616956.jpeg?cs=srgb&dl=pexels-daniel-reche-3616956.jpg&fm=jpg);
   background-size: 100%;
   background-position: center;
-  height: 700px;
+  height: 400px;
   background-repeat: no-repeat;
   text-align: center;
   background-attachment: fixed;

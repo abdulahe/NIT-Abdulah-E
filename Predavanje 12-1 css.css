@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  background-color: rgb(245, 218, 218);
+}
 .navigationBar {
   background-color: black;
   width: 100%;
@@ -47,14 +50,48 @@ i {
   cursor: pointer;
 }
 .menu {
+  display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  padding: 230px 0px;
 }
 .burgers {
-  height: 100px;
-  width: 150px;
+  height: 150px;
+  width: 200px;
+  text-align: center;
+  box-shadow: rgb(185, 184, 184) 5px 5px;
+  border-radius: 10px;
+}
+.burgers:hover {
+  cursor: pointer;
+  background-color: red;
+  opacity: 0.5;
+}
+.burgertext {
+  padding-top: 60px;
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bold;
 }
 #smallburger {
-  background-image: url(https://images.pexels.com/photos/4080534/pexels-photo-4080534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  top: 300px;
-  left: 100px;
+  background-image: url(https://images.pexels.com/photos/10273550/pexels-photo-10273550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: bottom;
+}
+#mediumburger {
+  background-image: url(https://images.pexels.com/photos/2702674/pexels-photo-2702674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center;
+}
+#largeburger {
+  background-image: url(https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center;
+}
+#xlburger {
+  background-image: url(https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: right;
 }
