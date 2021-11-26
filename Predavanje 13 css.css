@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div {
+  width: 250px;
+  height: 100px;
+  background-color: aqua;
+}
+div:hover {
+  transition: 1s;
+  /* transform: translate(-100px, 20px); */
+  /* transform: rotate(90deg); */
+  transform: scale(1.5, 1.5);
+}

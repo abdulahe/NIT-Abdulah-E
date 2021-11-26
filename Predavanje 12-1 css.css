@@ -38,6 +38,8 @@ a:hover {
   color: white;
   justify-content: center;
   font-size: 20px;
+  position: fixed;
+  bottom: 0px;
 }
 i {
   padding: 0px 5px;
@@ -45,13 +47,15 @@ i {
 .socialm:hover {
   color: red;
   cursor: pointer;
+  transition: 0.3s;
+  transform: scale(1.5, 1.5);
 }
 .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   height: 100%;
-  padding: 230px 0px;
+  padding: 250px 0px;
 }
 .burgers {
   height: 150px;
@@ -64,6 +68,8 @@ i {
   cursor: pointer;
   background-color: red;
   opacity: 0.5;
+  transition: 0.5s;
+  transform: scale(1.5, 1.5);
 }
 .burgertext {
   padding-top: 60px;
